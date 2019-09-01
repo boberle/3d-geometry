@@ -64,7 +64,9 @@ See below for the list of all commands.  This list is also available directly in
 
 <p><img src="docs/imgs/screenshot_command_list.png" width="700px"/></p>
 
+<!--
 <p><img src="docs/imgs/screenshot_function_list.png" width="700px"/></p>
+-->
 
 Use `shift+Enter` after having entered the beginning of the command name for auto-completion.
 
