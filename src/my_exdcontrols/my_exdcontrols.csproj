@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF2221BF-B515-4904-8083-76FF2C7C15DB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>My.ExdControls</RootNamespace>
+    <AssemblyName>My.ExdControls</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicWebNavigator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlsFunctions.cs" />
+    <Compile Include="DialogBoxConsoleCommandsTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogBoxPictureZoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DragAndDropListView.cs" />
+    <Compile Include="ExdComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExdListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AltIconToForm.cs" />
+    <Compile Include="ExdTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExdTreeView.cs" />
+    <Compile Include="MySettings.cs" />
+    <Compile Include="Console.cs" />
+    <Compile Include="PicturesAlbum.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MyResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TextEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolBoxColorDescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MyResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TextEditor_img_Bold_png.png" />
+    <None Include="Resources\TextEditor_img_Center_png.png" />
+    <None Include="Resources\TextEditor_img_Italic_png.png" />
+    <None Include="Resources\TextEditor_img_Left_png.png" />
+    <None Include="Resources\TextEditor_img_Open_png.png" />
+    <None Include="Resources\TextEditor_img_Right_png.png" />
+    <None Include="Resources\TextEditor_img_Save_png.png" />
+    <None Include="Resources\TextEditor_img_Underline_png.png" />
+    <None Include="Resources\Navigator_img_Go_png_little.png" />
+    <None Include="Resources\Navigator_img_Home_png_little.png" />
+    <None Include="Resources\Navigator_img_Refresh_png_little.png" />
+    <None Include="Resources\Navigator_img_Back_png_little.png" />
+    <None Include="Resources\Navigator_img_Forward_png_little.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\my\my.csproj">
+      <Project>{689ac427-7dba-4097-964b-2c54d1fa6f3e}</Project>
+      <Name>my</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my_imagefunctions", "my_imagefunctions.csproj", "{A1AC8F26-39E7-407A-80B6-D84C0751E04F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my", "..\my\my.csproj", "{689AC427-7DBA-4097-964B-2C54D1FA6F3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1AC8F26-39E7-407A-80B6-D84C0751E04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AC8F26-39E7-407A-80B6-D84C0751E04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AC8F26-39E7-407A-80B6-D84C0751E04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AC8F26-39E7-407A-80B6-D84C0751E04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689AC427-7DBA-4097-964B-2C54D1FA6F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689AC427-7DBA-4097-964B-2C54D1FA6F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689AC427-7DBA-4097-964B-2C54D1FA6F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689AC427-7DBA-4097-964B-2C54D1FA6F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DAB8F5D-1EB4-42B7-97A8-47C57AB6C58E}
+	EndGlobalSection
+EndGlobal
