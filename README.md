@@ -23,6 +23,15 @@ You can create:
 
 Furthermore, you can study intersections between several of these objects, vectors, barycenters, transformations (symmetry, homothety, rotation, translation), angles (bissector, ...), circles (tangent, ...), etc.
 
+Here is an example of intersection `M` between a line `l` and a sphere:
+
+<p><img src="docs/imgs/screenshot_line_sphere_intersection.png" style="border: 1px solid black;"/></p>
+
+Here an example of a house build with the program:
+
+<p><img src="docs/imgs/screenshot_house.png" style="border: 1px solid black;" width="700px"/></p>
+
+
 
 ## Getting started
 
